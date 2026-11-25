@@ -1,0 +1,14 @@
+{"at":0,"kind":"lab","record":{"lab":"L1","affinity":"family","skills":["grip"],"slots":1,"active":true}}
+{"at":0,"kind":"lab","record":{"lab":"L2","affinity":"family","skills":["grip"],"slots":1,"active":true}}
+{"at":0,"kind":"lab","record":{"lab":"M","affinity":"ind","skills":["grip"],"slots":1,"active":true}}
+{"at":0,"kind":"lab","record":{"lab":"N","affinity":"third","skills":["grip"],"slots":1,"active":true}}
+{"at":1,"kind":"packet","record":{"case":"c","item":"force","skill":"grip","evidence":1,"deadline":20}}
+{"at":2,"kind":"claim","record":{"lab":"L1","case":"c","item":"force","role":"review","request":"a"}}
+{"at":3,"kind":"claim","record":{"lab":"L2","case":"c","item":"force","role":"review","request":"b"}}
+{"at":4,"kind":"claim","record":{"lab":"M","case":"c","item":"force","role":"review","request":"c"}}
+{"at":5,"kind":"submit","record":{"lab":"L1","assignment":1,"evidence":1,"verdict":"pass"}}
+{"at":6,"kind":"inspect","record":{"lab":"M"}}
+{"at":7,"kind":"submit","record":{"lab":"M","assignment":2,"evidence":1,"verdict":"return"}}
+{"at":8,"kind":"claim","record":{"lab":"N","case":"c","item":"force","role":"decide","request":"d"}}
+{"at":9,"kind":"restart","record":{}}
+{"at":10,"kind":"submit","record":{"lab":"N","assignment":3,"evidence":1,"verdict":"return"}}

@@ -1,0 +1,12 @@
+{"at":0,"kind":"lab","record":{"lab":"A","affinity":"a","skills":["hand"],"slots":1,"active":true}}
+{"at":0,"kind":"lab","record":{"lab":"B","affinity":"b","skills":["hand"],"slots":1,"active":true}}
+{"at":0,"kind":"lab","record":{"lab":"C","affinity":"c","skills":["hand"],"slots":1,"active":true}}
+{"at":1,"kind":"packet","record":{"case":"c","item":"pose","skill":"hand","evidence":1,"deadline":21}}
+{"at":2,"kind":"claim","record":{"lab":"A","case":"c","item":"pose","role":"review","request":"x"}}
+{"at":3,"kind":"claim","record":{"lab":"B","case":"c","item":"pose","role":"review","request":"y"}}
+{"at":4,"kind":"submit","record":{"lab":"A","assignment":1,"evidence":1,"verdict":"pass"}}
+{"at":5,"kind":"submit","record":{"lab":"B","assignment":2,"evidence":1,"verdict":"return"}}
+{"at":6,"kind":"claim","record":{"lab":"C","case":"c","item":"pose","role":"decide","request":"z"}}
+{"at":7,"kind":"packet","record":{"case":"c","item":"pose","skill":"hand","evidence":2,"deadline":30}}
+{"at":8,"kind":"submit","record":{"lab":"C","assignment":3,"evidence":1,"verdict":"pass"}}
+{"at":9,"kind":"inspect","record":{"case":"c"}}
